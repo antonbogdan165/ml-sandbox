@@ -1,0 +1,16 @@
+*.csv
+*.xlsx
+*.zip
+
+__pycache__/
+*.pyc
+
+venv/
+.venv/
+env/
+sklearn-env/
+
+.vscode/
+.idea/
+
+*(8)SpamFilter/
