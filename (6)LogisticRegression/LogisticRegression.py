@@ -2,7 +2,7 @@ import random
 
 import matplotlib.pyplot as plt
 import numpy as np
-from vis import error_visualisation, universal_visualisation 
+from vis import error_visualisation, universal_visualisation
 
 features = np.array([[1, 0], [0, 2], [1, 1], [1, 2], [1, 3], [2, 2], [2, 3], [3, 2]])
 labels = np.array([0, 0, 0, 0, 1, 1, 1, 1])
@@ -51,9 +51,10 @@ def logistic_regression_algorithm(features, labels, learning_rate=0.01, epochs=1
     return weights, bias, errors
 
 
-weights, bias, errors = logistic_regression_algorithm(features, labels)
-fig, ax = plt.subplots(1, 2, figsize=(12, 5))
-predict_wrapper = lambda x: prediction(weights, bias, x)
-universal_visualisation(features, labels, predict_wrapper, ax[0])
-error_visualisation(errors, ax[1])
-plt.show()
+if __name__ == "__main__":
+    weights, bias, errors = logistic_regression_algorithm(features, labels)
+    fig, ax = plt.subplots(1, 2, figsize=(12, 5))
+    predict_wrapper = lambda x: prediction(weights, bias, x)
+    universal_visualisation(features, labels, predict_wrapper, ax[0])
+    error_visualisation(errors, ax[1])
+    plt.show()
