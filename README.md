@@ -1,6 +1,6 @@
 # ml-sandbox
 
-A collection of my working ML scripts and templates.
+A collection of my working ML scripts and templates
 
 ---
 
@@ -12,7 +12,7 @@ A collection of my working ML scripts and templates.
 * **`ReviewClassifier.py`** — a film review classifier using `scikit-learn`
 
 ### 2. Spam Filter (`(8)SpamFilter`)
-* **`SpamFilter.py`** — a Naive Bayes classifier built from scratch to detect spam messages.
+* **`SpamFilter.py`** — a Naive Bayes classifier built from scratch to detect spam messages
 
 
 ## Requirements
