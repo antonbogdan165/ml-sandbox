@@ -14,6 +14,7 @@ A collection of my working ML scripts and templates
 ### 2. Spam Filter (`(8)SpamFilter`)
 * **`SpamFilter.py`** — a Naive Bayes classifier built from scratch to detect spam messages
 
+---
 
 ## Requirements
 * Python 3.8+
