@@ -27,7 +27,9 @@ if __name__ == "__main__":
     dt_model = train_model(X, y)
 
     accuracy = dt_model.score(X, y)
-    print(f"The model has been trained. Accuracy on the training data: {accuracy:.3%}")
+    print(
+        f"\nThe model has been trained. Accuracy on the training data: {accuracy:.3%}"
+    )
 
     # Criteria: GRE, TOEFL, UnivRating, SOP, LOR, CGPA, Research
     sample_student = pd.DataFrame([[320, 110, 3, 4.0, 3.5, 8.9, 0]], columns=X.columns)
