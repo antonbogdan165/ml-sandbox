@@ -15,7 +15,7 @@ A collection of my working ML scripts and templates
 * **`SpamFilter.py`** - a Naive Bayes classifier built from scratch to detect spam messages
 
 ### 3. Decision tree (folder `(9)DecisionTree`)
-* **`DecisionTree.py`** - a model for predicting university admissions using scikit-learn.
+* **`DecisionTree.py`** - a model for predicting university admissions using scikit-learn
 
 ---
 
