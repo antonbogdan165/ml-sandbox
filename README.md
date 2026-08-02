@@ -21,6 +21,7 @@ A collection of my working ML scripts and templates
 
 ### 4. Neural Networks (folder `(10)NeuralNetworks`)
 * **`NeuralNetworks.py`** - a feedforward neural network built with TensorFlow/Keras for 2D binary classification
+* **`ImageRecognition.py`** - a neural network (MLP) on the MNIST dataset of handwritten digits using TensorFlow/Keras
 
 
 ---
