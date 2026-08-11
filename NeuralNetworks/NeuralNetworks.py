@@ -60,7 +60,7 @@ if __name__ == "__main__":
     error_visualisation(history.history["loss"], ax_right)
 
     universal_visualisation(
-        X, y_raw, lambda grid: model.predict(grid, verbose=0)[:, 1], ax_left
+        X, y_raw, ax_left, lambda grid: model.predict(grid, verbose=0)[:, 1]
     )
 
     plt.tight_layout()

@@ -1,14 +1,8 @@
-*.xlsx
-*.zip
-
 __pycache__/
 *.pyc
 
-venv/
-.venv/
-env/
 sklearn-env/
-vis.egg-info/
 
 .vscode/
-.idea/
+
+SupportVectorMachines

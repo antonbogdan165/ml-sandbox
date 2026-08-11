@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 
-emails = pd.read_csv("emails.csv")
 
-emails["words"] = emails["text"].apply(lambda x: list(set(x.lower().split())))
+def prepare_data(file_path):
+    emails = pd.read_csv(file_path)
+    emails["words"] = emails["text"].apply(lambda x: list(set(x.lower().split())))
+    return emails
 
 
 def spam_count(emails):
@@ -19,9 +21,6 @@ def spam_count(emails):
                 else:
                     model[word]["ham"] += 1
     return model
-
-
-model = spam_count(emails)
 
 
 def predict_naive_bayes(email, model):
@@ -45,6 +44,9 @@ def predict_naive_bayes(email, model):
 
 
 if __name__ == "__main__":
+    emails = prepare_data("emails.csv")
+    model = spam_count(emails)
+
     spam_test = "FREE money click here to win a cash prize now"
     prob_spam_1 = predict_naive_bayes(spam_test, model)
     print(f'Test 1 (Spam email): "{spam_test}"')

@@ -1,28 +1,27 @@
-# ml-sandbox
+# ML Sandbox
 
-A collection of my working ML scripts and templates
+A collection of working machine learning scripts and models. This repository focuses on algorithmic understanding, featuring procedural implementations of base ML algorithms from scratch using NumPy, alongside models built with industry-standard frameworks.
 
 ---
 
 ## What’s inside:
 
-### 0. Tools
-* **`vis.py`** - a general-purpose script for plotting graphs
+### 0. Utilities
+* `vis.py` — General-purpose script for data visualization and metric plotting (Matplotlib).
 
-### 1. Logistic regression (folder `(6)LogisticRegression`)
-* **`LogisticRegression.py`** - logistic regression built from scratch using NumPy
-* **`ReviewClassifier.py`** - a film review classifier using `scikit-learn`
+### 1. Logistic regression
+* `LogisticRegression.py` — Logistic regression implemented **from scratch** (math/NumPy only).
+* `ReviewClassifier.py` — Film review NLP classifier using `scikit-learn`.
 
-### 2. Spam filter (folder `(8)SpamFilter`)
-* **`SpamFilter.py`** - a Naive Bayes classifier built from scratch to detect spam messages
+### 2. Spam filter
+* `SpamFilter.py` — Naive Bayes classifier built **from scratch** for SMS/email spam detection.
 
-### 3. Decision tree (folder `(9)DecisionTree`)
-* **`DecisionTree.py`** - a model for predicting university admissions using scikit-learn
+### 3. Decision tree
+* `DecisionTree.py` — University admissions prediction model (`scikit-learn`).
 
-### 4. Neural Networks (folder `(10)NeuralNetworks`)
-* **`NeuralNetworks.py`** - a feedforward neural network built with TensorFlow/Keras for 2D binary classification
-* **`ImageRecognition.py`** - a neural network (MLP) on the MNIST dataset of handwritten digits using TensorFlow/Keras
-
+### 4. Neural Networks
+* `NeuralNetworks.py` — Feedforward neural network for 2D binary classification (TensorFlow/Keras).
+* `ImageRecognition.py` — Multilayer Perceptron (MLP) trained on the MNIST dataset for handwritten digit recognition (TensorFlow/Keras).
 
 ---
 

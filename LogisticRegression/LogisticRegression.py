@@ -56,6 +56,6 @@ if __name__ == "__main__":
     weights, bias, errors = logistic_regression_algorithm(features, labels)
     fig, ax = plt.subplots(1, 2, figsize=(12, 5))
     predict_wrapper = lambda x: prediction(weights, bias, x)
-    universal_visualisation(features, labels, predict_wrapper, ax[0])
+    universal_visualisation(features, labels, ax[0], predict_wrapper)
     error_visualisation(errors, ax[1])
     plt.show()
