@@ -41,7 +41,7 @@ def universal_visualisation(X, y, ax_left, predict_func=None, title=None):
     )
 
     if title:
-        ax_left.set_title(title, fontsize=11, fontweight="bolt", pad=8)
+        ax_left.set_title(title, fontsize=11, fontweight="bold", pad=8)
 
     ax_left.set_xlim(x_min, x_max)
     ax_left.set_ylim(y_min, y_max)
