@@ -23,6 +23,10 @@ A collection of working machine learning scripts and models. This repository foc
 * `NeuralNetworks.py` — Feedforward neural network for 2D binary classification (TensorFlow/Keras).
 * `ImageRecognition.py` — Multilayer Perceptron (MLP) trained on the MNIST dataset for handwritten digit recognition (TensorFlow/Keras).
 
+### 5. Support Vector Machine
+* `simple_SVM.py` — Linear SVM classifier with C parameter tuning (`scikit-learn`).
+* `kernel_SVM.py` — SVM classifier with RBF kernel and gamma parameter tuning (`scikit-learn`).
+
 ---
 
 ## Requirements
